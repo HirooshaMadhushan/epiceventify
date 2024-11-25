@@ -1,0 +1,10 @@
+/* EventDetail.css */
+
+.ant-btn-hover {
+    transition: background-color 0.3s ease;
+}
+
+.ant-btn-hover:hover {
+    background-color: rgb(28, 213, 238) !important;
+    color: white !important;
+}

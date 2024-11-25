@@ -1,0 +1,49 @@
+.main {
+    margin: 30px;
+    margin-top: 20px;
+    background-color: rgb(235, 233, 233); /* Added white background */
+    padding: 20px; /* Added padding for better appearance */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for better appearance */
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.gallery-container {
+    padding-bottom: 100px;
+    background-color: rgb(254, 253, 253); /* Added white background */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px; /* Added padding for better appearance */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for better appearance */
+}
+
+.view-button {
+    padding-top: 10px;
+    text-align: right;
+}
+
+.ant-card {
+    background-color: white; /* Ensure the card has a white background */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for better appearance */
+}
+
+.ant-card-meta-title {
+    color: #333;
+    font-weight: bold;
+}
+
+.ant-card-meta-description {
+    color: #666;
+}
+
+.mt-4 {
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+}

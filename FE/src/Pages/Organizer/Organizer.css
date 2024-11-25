@@ -1,0 +1,24 @@
+.main {
+    margin: 30px;
+    margin-top: 20px;
+    background-color: rgb(235, 233, 233);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .organizer-card {
+    width: 100%;
+    background-color: rgb(254, 253, 253);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  

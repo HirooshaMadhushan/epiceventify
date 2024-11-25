@@ -1,0 +1,26 @@
+.graphbody {
+    display: flex;
+    justify-content: center;
+}
+
+.graph1,
+.graph2 {
+    flex: 1;
+}
+
+.graph1 .ant-card,
+.graph2 .ant-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin: 10px;
+    width: 400px; /* Adjust width as needed */
+}
+
+.graph1 canvas,
+.graph2 canvas {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}

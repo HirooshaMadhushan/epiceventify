@@ -1,0 +1,101 @@
+/* General styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 254, 254);
+    font-family: 'Arial', sans-serif;
+}
+
+/* Main container */
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+    color: #333;
+}
+
+/* Container for cards */
+.container {
+    width: 90%;
+    margin-bottom: 20px;
+}
+
+/* Custom card styling */
+.custom-card {
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+    height: 120px; /* Reduced height */
+    background: none; /* Remove background color */
+    box-shadow: none; /* Remove box-shadow */
+}
+
+.custom-card:hover {
+    transform: translateY(-10px);
+}
+
+/* Pseudo-element for the colored line */
+.custom-card::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 5px;
+    border-radius: 10px 0 0 10px;
+}
+
+/* Gradient backgrounds for cards */
+.gradient-purple::before {
+    background-color: blue;
+}
+
+.gradient-blue::before {
+    background-color: rgb(9, 212, 30);
+}
+
+.gradient-green::before {
+    background-color: purple;
+}
+
+.gradient-orange::before {
+    background-color: #ff9966;
+}
+
+/* Text styles */
+.card-title {
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 0;
+    padding: 3px;
+    text-align: left;
+}
+
+.card-value {
+    color: rgb(250, 250, 250);
+    font-size: 2rem;
+    margin-top: 4px;
+    text-align: left;
+}
+
+/* Animation for icons */
+.icon {
+    color: rgb(207, 203, 203);
+    font-size: 50px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.custom-card:hover .icon {
+    transform: rotate(360deg);
+}
+
+/* Align icon to the right */
+.icon-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+}

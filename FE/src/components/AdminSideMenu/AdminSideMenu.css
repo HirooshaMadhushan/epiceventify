@@ -1,0 +1,26 @@
+.siderbar-container {
+    width: 30%;
+    height: 100vh;
+    position: fixed;
+    padding-top: 9vh;
+}
+
+.elements {
+    padding-top: 3%;
+    padding-bottom: 3%;
+    margin-bottom: 2%;
+    margin-top: 3%;
+}
+
+.elements:hover {
+    background: #b47dfc;
+    border-radius: 0;
+}
+
+.header {
+    width: 100%;
+}
+
+.ant-menu-vertical {
+    background-color: #562595;
+}
